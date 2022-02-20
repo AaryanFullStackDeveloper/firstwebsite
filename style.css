@@ -195,25 +195,14 @@ html {
   }
 
   
- 
-  @media (max-width: 800px) {
+ {
     html {
       box-shadow: none;
       padding: 0;
     }
 
 
-    .mobile-menu-check:checked ~ .show-mobile-menu:after {
-      background-color: #000;
-      color: #ed6e2f;
-      content: "CLOSE";
-      left: 0;
-      position: absolute;
-      text-align: center;
-      top: 1.5em;
-      width: 100%;
-    }
-  }
+
 
      .home-callout {
        flex-direction: column;
